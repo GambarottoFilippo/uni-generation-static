@@ -1,0 +1,30 @@
+---
+---
+
+html, body {
+	height: 100%;
+	font-family: 'Neva', arial;
+}
+
+.body-content {
+	min-height: 100%;
+}
+
+.logo {
+	height: 64px;
+	margin: 1rem;
+}
+
+.bg-home {
+	background-image: url("/assets/images/index/home_bg.png");
+	background-position: center;
+}
+
+.home-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  @media screen and (min-width: 768px) {
+  	font-size: 2.5rem;
+  }
+}

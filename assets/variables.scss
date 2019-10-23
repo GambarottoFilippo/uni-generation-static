@@ -1,0 +1,26 @@
+---
+---
+
+@font-face {
+	font-family: "Neva";
+	font-style: normal;
+  font-weight: 400;
+	src: url("/assets/fonts/Nexa Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Neva";
+	font-style: normal;
+  font-weight: 700;
+	src: url("/assets/fonts/Nexa Bold.otf") format("opentype");
+}
+
+.btn {
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
+	border-radius: 20px !important;
+}
+
+.text-primary {
+	color: #0E2743 !important;
+}
