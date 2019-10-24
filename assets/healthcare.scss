@@ -1,0 +1,80 @@
+---
+---
+
+.bg-healthcare {
+	background-image: url("/assets/images/unigen-healthcare/bg.png");
+	background-position: center;
+	position: relative;
+}
+
+/** HEADER **/
+.healthcare-header {
+	box-shadow: 0px 3px 6px #00000029;
+	background: white;
+	padding: 1rem 1rem 1rem 5rem;
+	position: relative;
+}
+
+.healthcare-header__title {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.healthcare-header__page {
+	color: #4F99DA;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.fa-bars {
+	position: absolute;
+	transform: translateY(-50%);
+	top: 50%;
+	left: 2rem;
+	font-size: 1.5rem;
+}
+
+.side-menu-bg {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: #FAFAFA;
+	opacity: 0;
+	transition: all 0.5s;
+	z-index: 10;
+	visibility: hidden;
+	.side-menu {
+		position: absolute;
+		width: 220px;
+		top: 0;
+		bottom: 0;
+		left: -220px;
+		padding: 2rem 3rem;
+		transition: all 0.5s;
+		box-shadow: 0px 3px 6px #00000029;
+		.fa-times {
+			margin-bottom: 3rem;
+			font-size: 32px;
+		}
+	}
+	.menu-item {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 34px;
+		color: black;
+		display: block;
+		&:not([href]):not([tabindex]) {
+			color: #4F99DA;
+		}
+	}
+	&.side-menu-open {
+		visibility: visible;
+		opacity: 1;
+		.side-menu {
+			left: 0;
+		}
+	}
+}
+/***********/
