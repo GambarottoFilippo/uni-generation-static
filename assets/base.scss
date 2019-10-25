@@ -18,11 +18,14 @@ html, body {
 .bg-home {
 	background-image: url("/assets/images/index/home_bg.png");
 	background-position: center;
+	background-size: cover;
 }
 
 .bg-healthcare {
 	background-image: url("/assets/images/unigen-healthcare/bg.png");
 	background-position: center;
+	background-size: cover;
+	padding: 24px;
 }
 
 .home-title {
@@ -32,4 +35,31 @@ html, body {
   @media screen and (min-width: 768px) {
   	font-size: 2.5rem;
   }
+}
+
+.with-menu-fixed {
+	padding-top: 104px !important;
+  @media screen and (min-width: 768px) {
+  	padding-top: 0 !important;
+  }
+}
+
+.main-box-shadow {
+	box-shadow: 0px 3px 6px #00000029;
+}
+
+.main-box {
+	padding: 1rem;
+  @media screen and (min-width: 768px) {
+		padding: 5rem 6rem;
+  }
+	.main-box__img {
+		padding-right: 0;
+		padding-bottom: 2rem;
+		width: 100%;
+	  @media screen and (min-width: 768px) {
+			padding-right: 6rem;
+			padding-bottom: 0;
+	  }
+	}
 }
