@@ -1,0 +1,43 @@
+---
+---
+
+.news-box {
+	padding: 1.2rem;
+	margin-bottom: 2rem;
+	@media screen and (min-width: 768px) {
+		padding: 3rem 2.5rem;
+	}
+}
+
+.news-box__title {
+	font-weight: bold;
+	font-size: 18px;
+	text-align: left;
+	padding-bottom: 1.5rem;
+	span {
+		display: block;
+		font-weight: normal;
+		font-size: 16px;
+	}
+}
+
+.news-box__video {
+	margin-bottom: 1.5rem;
+}
+
+.news-box__img {
+	margin-bottom: 1.5rem;
+	img {
+		width: 100%;
+	}
+}
+
+.news-box__text {
+	text-align: left;
+	font-size: 15px;
+}
+
+.news-box__button {
+	text-align: center;
+	padding-bottom: 2rem;
+}
