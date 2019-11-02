@@ -22,15 +22,10 @@ html, body {
 }
 
 .bg-home {
-	background-image: url("/assets/images/index/home_bg.png");
+	background-image: url("/assets/images/Homepage backround 2.jpg");
 	background-position: center;
 	background-size: cover;
-}
-
-.bg-healthcare {
-	background-image: url("/assets/images/unigen-healthcare/bg.png");
-	background-position: center;
-	background-size: cover;
+	background-attachment: fixed;
 }
 
 .home-title {
@@ -51,30 +46,4 @@ html, body {
 
 .main-box-shadow {
 	box-shadow: 0px 3px 6px #00000029;
-}
-
-.main-box {
-	padding: 1rem;
-  @media screen and (min-width: 768px) {
-		padding: 5rem 6rem;
-  }
-	.main-box__img {
-		padding-right: 0;
-		padding-bottom: 2rem;
-		width: 100%;
-	  @media screen and (min-width: 768px) {
-			padding-right: 6rem;
-			padding-bottom: 0;
-	  }
-	}
-}
-
-.careers-box {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 180px;
-	@media screen and (min-width: 768px) {
-		min-height: 600px;
-	}
 }

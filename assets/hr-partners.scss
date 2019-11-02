@@ -2,14 +2,20 @@
 ---
 
 .text-primary {
-	color: #4F99DA !important;
+	color: #F74D11 !important;
 }
 
-.bg-healthcare {
-	background-image: url("/assets/images/healthcare/bg.png");
+.bg-hr-partners {
+	background-image: url("/assets/images/hr-partners/HR partners background.png");
 	background-position: center;
 	position: relative;
 	background-attachment: fixed;
+}
+
+.with-menu-fixed {
+  @media screen and (min-width: 768px) {
+  	padding-top: 64px !important;
+  }
 }
 
 .btn {
@@ -21,8 +27,8 @@
 	border-width: 2px;
 }
 .btn-primary {
-	background: #4F99DA !important;
-	border-color: #4F99DA !important;
+	background: #F74D11 !important;
+	border-color: #F74D11 !important;
 	&:hover {
 		background: #2b5f8c !important;
 		border-color: #2b5f8c !important;
@@ -32,11 +38,11 @@
 
 .btn-outline-primary {
 	background: white !important;
-	border-color: #4F99DA !important;
-	color: #4F99DA;
+	border-color: #F74D11 !important;
+	color: #F74D11;
 	&:hover {
-		background: #4F99DA !important;
-		border-color: #4F99DA !important;
+		background: #F74D11 !important;
+		border-color: #F74D11 !important;
 	}
 }
 

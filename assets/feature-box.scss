@@ -2,15 +2,18 @@
 ---
 
 .feature-box {
-	padding: 0 1rem;
+	padding: 1.25rem;
 	margin-bottom: 2rem;
+	@media screen and (min-width: 768px) {
+		padding: 2rem 5rem;
+	}
 }
 
 .feature-box__title {
 	font-weight: bold;
 	font-size: 24px;
 	text-align: center;
-	padding: 1.5rem;
+	padding-bottom: 1.5rem;
 }
 
 .feature-box__img {
@@ -18,21 +21,20 @@
   align-items: center;
   justify-content: center;
 	position: relative;
+	padding-bottom: 1.5rem;
 	img {
-		max-width: 100%;
+		width: 60%;
 		@media screen and (min-width: 768px) {
-			padding-left: 4rem;
-			padding-right: 4rem;
+			width: 40%;
 		}
 	}
 }
 
 .feature-box__text {
-	padding: 2rem 1rem;
+	padding-bottom: 1.5rem;
 	text-align: center;
 	font-size: 15px;
 	@media screen and (min-width: 768px) {
-		padding: 2rem;
 	  font-size: 18px;
 	}
 	&.text-sm {
@@ -44,5 +46,4 @@
 
 .feature-box__button {
 	text-align: center;
-	padding-bottom: 2rem;
 }
