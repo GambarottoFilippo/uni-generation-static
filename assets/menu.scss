@@ -65,6 +65,7 @@
 	height: 100%;
 	@media screen and (min-width: 768px) {
 		font-size: 20px;
+		padding-left: 3rem;
 	}
 }
 .fas.fa-chevron-left {
@@ -128,14 +129,24 @@
 	}
 }
 
+.topbar-desktop__container {
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	transition: all 0.5s;
+	&.topbar-desktop__container-scrolled {
+		background: white;
+		box-shadow: 0px 3px 6px #00000029;
+	}
+}
+
 .topbar-desktop {
 	display: none;
 	@media screen and (min-width: 768px) {
-		position: relative;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 3rem 4rem 3rem 4rem;
+		padding: 2rem 0;
 		.menu-item {
 			padding: 0.9rem;
 			font-size: 18px;
