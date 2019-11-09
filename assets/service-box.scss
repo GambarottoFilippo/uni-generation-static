@@ -1,0 +1,63 @@
+---
+---
+
+.service-box {
+	padding: 2rem;
+	text-align: center;
+	box-shadow: 0px 3px 6px #00000029;
+}
+
+.service-box__title {
+	font-weight: bold;
+	min-height: 80px;
+	text-transform: uppercase;
+	@media screen and (min-width: 768px) {
+		min-height: 100px;
+	}
+}
+
+.service-box__body {
+	min-height: 130px;
+	@media screen and (min-width: 768px) {
+		min-height: 150px;
+	}
+}
+
+.service-box__button {
+	.btn {
+		font-size: 14px !important;
+	}
+
+}
+
+.bg-service-1 {
+	background: #F8E2D9;
+}
+
+.bg-service-2 {
+	background: #D0E5DF;
+}
+
+.bg-service-3 {
+	background: #F3E9FE;
+}
+
+.bg-service-4 {
+	background: #E9EFFE;
+}
+
+.bg-service-5 {
+	background: #F7EDBE;
+}
+
+.bg-service-6 {
+	background: #E2E2E2;
+}
+
+.bg-service-7 {
+	background: #CDE0E6;
+}
+
+.bg-service-8 {
+	background: #E8F1D0;
+}
