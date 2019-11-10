@@ -25,7 +25,7 @@
 	img {
 		width: 60%;
 		@media screen and (min-width: 768px) {
-			width: 40%;
+			width: 80%;
 		}
 	}
 }
@@ -36,6 +36,7 @@
 	font-size: 15px;
 	@media screen and (min-width: 768px) {
 	  font-size: 18px;
+	  min-height: 80px;
 	}
 	&.text-sm {
 		@media screen and (min-width: 768px) {

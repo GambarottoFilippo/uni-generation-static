@@ -63,9 +63,9 @@
 }
 
 .service-box-big {
-	padding: 0 15px 15px 15px;
+	padding: 0 25px 15px 25px;
 	@media screen and (min-width: 768px) {
-		padding: 0 3.5rem 3.5rem 3.5rem;
+		padding: 0 3.5rem 3.2rem 3.5rem;
 	}
 }
 
@@ -90,4 +90,8 @@
 .modal-content {
 	border: 0;
 	border-radius: 0;
+}
+
+ul {
+	padding-left: 20px;
 }
